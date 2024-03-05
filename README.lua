@@ -27,21 +27,21 @@ library.theme = {
     cursor = true,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
     backgroundcolor = Color3.fromRGB(22, 20, 23),
-    tabstextcolor = Color3.fromRGB(0, 255, 0),
-    bordercolor = Color3.fromRGB(60, 60, 60),
-    accentcolor = Color3.fromRGB(66, 22, 102),
-    accentcolor2 = Color3.fromRGB(72, 16, 78),
-    outlinecolor = Color3.fromRGB(60, 60, 60),
-    outlinecolor2 = Color3.fromRGB(0, 0, 0),
-    sectorcolor = Color3.fromRGB(30, 30, 30),
-    toptextcolor = Color3.fromRGB(255, 255, 255),
-    topheight = 48,
-    topcolor = Color3.fromRGB(0, 255, 0),
-    topcolor2 = Color3.fromRGB(0, 100, 0),
-    buttoncolor = Color3.fromRGB(49, 49, 49),
-    buttoncolor2 = Color3.fromRGB(39, 39, 39),
-    itemscolor = Color3.fromRGB(200, 200, 200),
-    itemscolor2 = Color3.fromRGB(210, 210, 210)
+tabstextcolor = Color3.fromRGB(0, 255, 0), -- Dark green
+bordercolor = Color3.fromRGB(60, 60, 60),
+accentcolor = Color3.fromRGB(66, 22, 102), -- Replaced with green: Color3.fromRGB(0, 128, 0)
+accentcolor2 = Color3.fromRGB(72, 16, 78), -- Replaced with green: Color3.fromRGB(0, 128, 0)
+outlinecolor = Color3.fromRGB(60, 60, 60),
+outlinecolor2 = Color3.fromRGB(0, 0, 0),
+sectorcolor = Color3.fromRGB(30, 30, 30),
+toptextcolor = Color3.fromRGB(255, 255, 255),
+topheight = 48,
+topcolor = Color3.fromRGB(0, 128, 0), -- Dark green
+topcolor2 = Color3.fromRGB(30, 30, 30),
+buttoncolor = Color3.fromRGB(49, 49, 49),
+buttoncolor2 = Color3.fromRGB(39, 39, 39),
+itemscolor = Color3.fromRGB(200, 200, 200),
+itemscolor2 = Color3.fromRGB(210, 210, 210)
 }
 
 if library.theme.cursor and Drawing then
